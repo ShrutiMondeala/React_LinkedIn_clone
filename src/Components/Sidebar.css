@@ -1,0 +1,158 @@
+.Sidebar{
+    display: flex;
+    flex: 0.25;
+    flex-direction: column;
+}
+.Sidebar__profile{
+    border-bottom: 1px rgb(27, 27, 27) solid;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Sidebar__info{
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+    border-bottom: 1px #ccc solid;
+
+}
+.Sidebar__profile img{
+    width: 100%;
+    height: 50px;
+    margin-bottom: -30px;
+}
+
+.Sidebar__profile h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Sidebar__profile p{
+    padding-top: 5px;
+    margin-bottom: 5px 10px;
+    color: rgb(105, 103, 103);
+    
+}
+.Sidebar .Sidebar__profile .MuiAvatar-circular{
+    width: 50px;
+    height: 50px;
+    margin: 0px auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.Sidebar__stats{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size:15px;
+    align-items: center;
+    text-align: left;
+}
+
+.Sidebar_recenttab{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: rgb(102, 100, 100);
+    border-radius: 10px;
+    position: sticky;
+    top:50px
+}
+
+.Sidebar_recenttab .Recenthead{
+    padding: 10px 5px;
+}
+
+.Sidebar_recenttab .Recenttab{
+    padding: 10px 5px;
+}
+
+.hash{
+    font-size: 17px;
+    padding-right: 5px;
+}
+
+
+
+/* --------------------------RightSidebar----------------------------------- */
+
+.Right__bar{
+    flex: 0.3;
+}
+.first{
+
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.second{
+    position: sticky;
+    top:60px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Right__hrader{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.Right__info__down{
+    list-style:circle;
+    padding-left: 19px;
+
+}
+.Right__info__down span{
+    font-weight: 700;
+}
+
+.Right__info__down p{
+    font-size: 12px;
+    color: rgb(151, 150, 150);
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

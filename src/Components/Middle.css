@@ -1,0 +1,145 @@
+.Feed{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+    flex:0.5;
+
+}
+.Wrapper{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+}
+.FeedInput{
+    display: flex;
+    align-items: center;
+
+}
+
+.FeedInput form{
+    display: flex;
+    padding:10px;
+    align-items: center;
+    width: 100%;
+}
+
+.FeedInput form input[type="text"]{
+    width: 100%;
+    border-radius: 40px;
+    padding:10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.FeedInput form input[type="submit"]{
+    display: none;
+
+}
+
+.Feedicons{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.Feedicons :hover{
+    background-color: #eee;
+}
+
+.Feedicons .options svg{
+    margin-right: 5px;
+}
+
+/* ---------------------------- */
+
+.Post{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Post__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.userinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot{
+    font-size: 17px;
+    margin-top: 0;
+    font-weight: 700;
+}
+.userInfo{
+    padding: 10px;
+}
+.userInfo p{
+    font-size: 14px;
+    color: gray;
+
+}
+
+.userInfo h3{
+    font-size: 15px;
+}
+
+.Post__body{
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.Post__bottom{
+    display: flex;
+}
+
+.option_bottom{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: rgb(121, 117, 117);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
